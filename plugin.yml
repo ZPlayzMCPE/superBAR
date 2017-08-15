@@ -1,11 +1,11 @@
 name: superBAR
 main: FaigerSYS\superBAR\superBAR
-version: 1.6.2
-api: [2.0.0]
+version: 2.0.0
+api: [3.0.0-ALPHA6, 3.0.1]
 load: POSTWORLD
-author: FaigerSYS
+author: Zeao
 description: "Just good and customizable HUD"
-website: "https://github.com/FaigerSYS"
+website: "Not showing information due to seld-leak."
 
 commands:
  superbar:
