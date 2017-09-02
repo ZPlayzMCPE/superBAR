@@ -45,7 +45,7 @@ abstract class CommandController {
 				$add = ' But you still will not see it here xD';
 			
 			$plugin->getHUD()->setDisplay($sender->getName(), true);
-			$sender->sendMessage($plugin::PREFIX . 'Enabled!' . $add);
+			$sender->sendMessage($plugin::PREFIX . '§aSuper vanish mode enabled!' . $add);
 				
 		} elseif ($command === 'disable' || $command === 'off') {
 			if (!$plugin->hasPermission($sender, 'switch') || !$plugin->hasPermission($sender, 'use'))
@@ -56,7 +56,7 @@ abstract class CommandController {
 				$add = ' As well as always :P';
 			
 			$plugin->getHUD()->setDisplay($sender->getName(), false);
-			$sender->sendMessage($plugin::PREFIX . 'Disabled!' . $add);
+			$sender->sendMessage($plugin::PREFIX . '§2Super vanish mode disabled!' . $add);
 			
 		} elseif ($command === 'set' || $command === 'change') {
 			if (!$plugin->hasPermission($sender, 'change'))
