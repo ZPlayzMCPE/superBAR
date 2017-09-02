@@ -27,7 +27,7 @@ permissions:
   default: true
   description: "Use superBAR help"
  superbar.switch:
-  default: true
+  default: op
   description: "Enable/Disable HUD for you"
  superbar.change:
   default: op
