@@ -12,7 +12,7 @@ use FaigerSYS\superBAR\controller\CommandController;
 
 class superBAR extends PluginBase {
 	
-	const PREFIX = CLR::AQUA . '[' . CLR::YELLOW . 'super' . CLR::GOLD . 'BAR' . CLR::AQUA . '] ' . CLR::GRAY;
+	const PREFIX = CLR::AQUA . '§b[' . CLR::YELLOW . '§aSuper' . CLR::GOLD . '§2Vanish' . CLR::AQUA . '§b] ' . CLR::GRAY;
 	const NO_PERM = CLR::RED . 'You don\'t have permission to use this command';
 	
 	/** @var \FaigerSYS\superBAR\Loader */
