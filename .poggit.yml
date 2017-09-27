@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/TheFixerDevelopment/superBAR
+branches:
+- patch-3
+projects:
+  superBAR:
+    path: ""
+...
