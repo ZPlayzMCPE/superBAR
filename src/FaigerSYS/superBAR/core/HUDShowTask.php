@@ -12,7 +12,7 @@ class HUDShowTask extends PluginTask {
 		parent::__construct($plugin);
 	}
 	
-	public function onRun(int $tick) {
+	public function onRun(int $currentTick) {
 		$this->HUD->processHUD($this->getOwner()->getServer());
 	}
 	
