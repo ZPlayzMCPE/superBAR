@@ -12,7 +12,7 @@ class LoaderTask extends PluginTask {
 		parent::__construct($plugin);
 	}
 	
-	public function onRun($tick) {
+	public function onRun(int $currentTick) {
 		$this->loader->onEnable($this->getOwner());
 	}
 	
